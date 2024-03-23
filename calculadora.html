@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULADORA</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="screen">
+        <input type="text" id="output" disabled >
+            
+        <button class="botones" onclick="buttonClicked('0')">0</button>
+        <button class="botones" onclick="buttonClicked('1')">1</button>
+        <button class="botones" onclick="buttonClicked('2')">2</button>
+        <button class="botones" onclick="buttonClicked('C')">C</button>
+        <button class="botones" onclick="buttonClicked('3')">3</button>
+        <button class="botones" onclick="buttonClicked('4')">4</button>
+        <button class="botones" onclick="buttonClicked('5')">5</button>
+        <button class="botones" onclick="buttonClicked('CE')">CE</button>
+        <button class="botones" onclick="buttonClicked('6')">6</button>
+        <button class="botones" onclick="buttonClicked('7')">7</button>
+        <button class="botones" onclick="buttonClicked('8')">8</button>
+        <button class="botones" onclick="buttonClicked('9')">9</button>    
+        <button class="botones" onclick="buttonClicked('-')">-</button>
+        <button class="botones" onclick="buttonClicked('*')">*</button>
+        <button class="botones" onclick="buttonClicked('/')">/</button>
+        <button class="botones" onclick="buttonClicked('**')">^</button>
+        <button class="botones" onclick="buttonClicked('(')">(</button>
+        <button class="botones" onclick="buttonClicked(')')">)</button>
+        <button class="botones" onclick="buttonClicked('.')">,</button>
+        <button class="botones" onclick="calculate('=')">=</button>
+        <button class='boton-suma' onclick="buttonClicked('+')">+</button>
+           
+                            
+    </div>
+
+    <script src="Scripts.js"></script>
+</body>
+</html>

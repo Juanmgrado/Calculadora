@@ -1,0 +1,79 @@
+.screen {
+    width: 350px;
+    margin: 0 auto; 
+    
+    border: 3px solid black; 
+
+    background-color: darkgray;
+    
+    padding: 10px; 
+    padding-right: 19px;
+    
+    margin-top: 100px;
+}
+
+#output {
+    width: 100%; 
+    height: 60px;
+    
+    box-sizing: border-box; 
+    
+    text-align: right;
+
+    font-size: 30px;
+    color: brown;
+    background-color: black;
+    
+    margin-bottom: 50px;
+}
+
+.botones {
+    width: calc(25% - 10px); 
+    
+    margin-bottom: 10px; 
+    
+    
+    border-radius: 60%;
+
+    transition: background-color 1.0s, color 1.0s;
+    
+
+    background-color: black;
+}
+
+.boton-suma {
+    margin-top: -249px;
+    margin-left: 326px;
+
+    padding-top: 128px;
+    padding-bottom: 74px;
+
+    font-size: 40px;
+
+    display: flex;
+
+    border-radius: 30%;
+
+    text-align: center;
+
+    background-color: black;
+
+    transition: background-color 1.0s, color 1.0s;
+    
+}
+
+button{
+    text-align: center;
+    
+    color: red;
+    
+    font-size: 30px;
+}
+
+.botones:hover{
+    background-color: orange; color: rgb(76, 4, 76);
+}
+
+.boton-suma:hover{
+    background-color: orange; color: rgb(76, 4, 76);
+}
